@@ -1,0 +1,123 @@
+header{
+ background-image: url('../../../login.jpg');
+ height: 100vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;   
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(39, 175, 253);
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    border-radius: 15%;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size:16px;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+label{
+ color: #d9534f;
+}
+i{
+ color: #f0e758;
+}
+.havhome .nav-item > a{
+    color:black !important;
+}
+.havhome {
+    background-color:rgb(44, 184, 240) !important;
+}
+.navdash{
+ background-color: #a60e0e !important;
+}
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 10px 40px;
+    margin: 20px 0px;
+}
+.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.card-box:hover .icon i {
+    font-size: 100px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+.card-box h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+}
+.card-box p {
+    font-size: 15px;
+}
+.card-box .icon {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+}
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+.card-box:hover .card-box-footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+.bg-blue {
+    background-color: #00c0ef !important;
+}
+.bg-green {
+    background-color: #00a65a !important;
+}
+.bg-orange {
+    background-color: #f39c12 !important;
+}
+.bg-red {
+    background-color: #d9534f !important;
+}
+.addappt{
+    color: white;
+}
+
+
+  /*--------------------------------------------------------------
+  # Top Bar
+  --------------------------------------------------------------*/
+ 
